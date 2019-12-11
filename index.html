@@ -11,7 +11,6 @@
 						return; 	
 					}
 
-					
 					code = escape(document.vote.postcode.value) + ";"; 
 					document.cookie = "postcode" + code; 
 					document.write ("du valgte " + code);
@@ -28,10 +27,7 @@
 	</head> 
 		<body> 
 			<input type="file" />
-
 			<script src="index.js" charset="utf-8"></script>
-
-
 
 			<form name="vote" action="">
 				<h2> Find your voting location </h2> </br>
@@ -39,7 +35,5 @@
 				or your Municipality <input type="text" name="municipality"/><br/><br/>
 				<input type="button" value="Enter" onclick="fvote()"/>
 			</form>
-
 		</body>
 </html>
-
