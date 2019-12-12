@@ -4,42 +4,44 @@
 		<meta charset="utf-8">
 		<title> Vote </title>
 		<script> 
-
 				function fvote(){
-					if(document.vote.postcode.value == "" && document.vote.municipality.value == ""){
+					if(document.vote.conty.value == "" && document.vote.municipality.value == ""){
 						alert("Enter a value");
 						return; 	
 					}
 
-					
-					code = escape(document.vote.postcode.value) + ";"; 
-					document.cookie = "postcode" + code; 
-					document.write ("du valgte " + code);
-					return; 
-
-					muni = escape(document.vote.municipality.value) + ";"; 
-					document.cookie = "postcode" + muni; 
-					document.write ("du valgte " + muni);
-					return; 
+					if (document.vote.conty.value != ""){
+						conty = escape(document.vote.conty.value) + ";"; 
+					document.cookie = "conty" + conty; 
+					document.write ("Valgt fylke " + conty);
+					return;
+					}					
+					 
+					else {
+						muni = escape(document.vote.municipality.value) + ";"; 
+					document.cookie = "municipality" + muni; 
+					document.write ("Valgt kommune " + muni);
+					return;
+					} 
 				}
-
-
 		</script>
-	</head> 
-		<body> 
-			<input type="file" />
 
+	</head> 
+		<body>
+			<input type="file" />
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 			<script src="index.js" charset="utf-8"></script>
 
-
-
+<!--			<script>
+				$(function(){
+				}); 
+			</script>
+--> 			
 			<form name="vote" action="">
 				<h2> Find your voting location </h2> </br>
-				Enter your postcode <input type="text" name="postcode"/><br/><br/>
-				or your Municipality <input type="text" name="municipality"/><br/><br/>
+				Skriv inn fylke <input type="text" name="conty"/><br/><br/>
+				Skriv inn kommune <input type="text" name="municipality"/><br/><br/>
 				<input type="button" value="Enter" onclick="fvote()"/>
 			</form>
-
 		</body>
 </html>
-
