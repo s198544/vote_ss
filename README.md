@@ -1,8 +1,8 @@
 # vote_ss
 
 LES:
-Jeg har satt opp to alternativer for gjennomføring av oppgaven rent logisk. 
-Logikken rundt oppsettet er ikke avansert 
+Jeg har har satt opp alternativ for gjennomføring av oppgaven rent logisk. 
+ 
 
 
 
