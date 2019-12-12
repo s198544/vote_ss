@@ -14,10 +14,13 @@ Alt 1:
 5. Print ut aktuelle lokasjoner med gitt postnummer til bruker.  
 
 
-	--> Alt 2:
 
-Velg Fylke: 		  <Dropdown>
-Velg Kommune: 		<Dropdown>
+
+
+Alt 2:
+
+Velg Fylke:    <Dropdown>
+Velg Kommune:  <Dropdown>
 
 1. Les inn fra fil eller fra API direkte til Array. lagre i array etter linje.  
 
