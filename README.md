@@ -8,8 +8,9 @@ Jeg har har satt opp alternativ for gjennomføring av oppgaven rent logisk.
 
 *******  Alt 1:
 
-Velg Fylke:    Dropdown
-Velg Kommune:  Dropdown
+A) Velg Fylke:    Dropdown
+
+B) Velg Kommune:  Dropdown
 
 1. Les inn fra fil eller fra API direkte til Array. lagre i array etter linje.  
 
