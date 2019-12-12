@@ -1,23 +1,12 @@
 # vote_ss
 
-
-Alt 1: 
-
-1. Bruker skriv inn postnummer i inputfelt 
-
-2. Postnummer lagres i variabel(x) 
-
-3. Leser inn tekst eller API i array(a) 
-
-4. Varibel(x) brukes i søk i array(a) 
-
-5. Print ut aktuelle lokasjoner med gitt postnummer til bruker.  
+LES:
+Jeg har satt opp to alternativer for gjennomføring av oppgaven rent logisk. 
+Logikken rundt oppsettet er ikke avansert 
 
 
 
-
-
-Alt 2:
+*******  Alt 1:
 
 Velg Fylke:    <Dropdown>
 Velg Kommune:  <Dropdown>
@@ -33,4 +22,20 @@ Velg Kommune:  <Dropdown>
 
 5. Bruker velger kommune fra listen. verdi lagres i ny variabel(k). Variabel(K) brukes til å søke etter aktuelle lokasjoner. resultatet printes. 
 
-6. bruker ser oversikt over akteulle stemmelokaler i sin kommune.  
+6. Bruker ser oversikt over akteulle stemmelokaler i sin kommune.  
+
+
+
+
+******* Alt 2: 
+Vil ikke fungere optimalt da postnummer ikke nødvendigvis har et 1-1 med valgloker. 
+
+1. Bruker skriv inn postnummer i inputfelt 
+
+2. Postnummer lagres i variabel(x) 
+
+3. Leser inn tekst eller API i array(a) 
+
+4. Varibel(x) brukes i søk i array(a) 
+
+5. Print ut aktuelle lokasjoner med gitt postnummer til bruker.  
