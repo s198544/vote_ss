@@ -5,9 +5,9 @@ Jeg har har satt opp alternativ for gjennomføring av oppgaven rent logisk.
  
 ******* Alt 1:
 A) Velg Fylke:            Dropdown
-
+-----------------
 B) Velg Kommune:          Dropdown
-
+-----------------
 
 1.	On load - Les inn fra fil eller fra API direkte til Array(x). Lagre i array etter linje.
 2.	Søk gjennom array(x) med en løkke. Print unike fylker 
