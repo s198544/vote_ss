@@ -4,6 +4,8 @@ LES:
 Jeg har har satt opp alternativ for gjennomføring av oppgaven rent logisk. 
  
 ******* Alt 1:
+
+
 A) Velg Fylke:            Dropdown
 
 
